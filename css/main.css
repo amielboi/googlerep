@@ -1,0 +1,156 @@
+
+
+* {
+	font-size: 12px;
+}
+
+div#navi{
+	float: right;
+	margin-right: 25px;
+}
+
+#top li{
+	position: relative;
+	list-style: none; 
+	display:inline-block;
+	padding: .1em 10px 0 0;
+	vertical-align: bottom;
+	font-size: 13px;
+	margin: 5px 5px;
+	text-align: right;
+}
+
+#navi a:hover{
+	text-decoration: underline;
+}
+
+#navi a{
+	text-decoration: none;
+	color: #222;
+	font-size: 12;
+	cursor: auto; 
+}
+
+
+.hd {
+	margin:0;
+	line-height: 1.42857143;
+	height:100%;
+	color: #222;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.fa:before, .fa:hover {
+	display:inline-block;
+	color: #000;
+	font-size: 20px;
+	vertical-align: middle;
+	opacity: 0.7;
+	cursor: default;
+	text-decoration: none;
+}
+
+
+span#sharebtn{
+	background-color: #f2f2f2;
+	padding: 7px 15px;
+	cursor: default;
+}
+
+span#sharebtn:hover{
+	background-color: #e5e5e5;
+	padding: 7px 15px;
+	text-decoration: none;
+	cursor: default;
+}
+
+div#search{
+	margin-top: 50px;
+	width:100%;
+	position: absolute;
+}
+
+div#search img{
+	display:block;
+	margin:0 auto;
+	padding: 142px 0 24px 0;
+}
+
+img{
+	height: 17.5%;
+	width: 17.5%;
+	vertical-align: middle;
+	border:0;
+}
+
+input.search_buttons{
+	width: 35%;
+	margin-left: 32.5%;
+	font-size: 17px;
+}
+
+ul.buttons{
+	text-align: center;
+}
+
+ul.buttons li{
+	background-color: #f5f5f5;
+	color: #000;
+	border:1px solid rgba(0, 0, 0, 0.1);
+	line-height: 27px;
+	border-radius: 2px;
+	display:inline-block;
+	margin-top: 5px;
+	margin-right: 39px;
+	margin-left: 1px;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 0 11px;
+}
+
+div#btm{
+	width:100%;
+	bottom:0 !important;
+	position:absolute;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	height: 40px;
+}
+
+ul#left li{
+	float: left;
+	display:block;
+	padding-right: 30px;
+	line-height: 16px;
+}
+
+#left a{
+	text-decoration: none;
+	color:#666;
+	font-size: 12.8px;
+}
+
+ul#right li{
+	list-style: none;
+	float: right;
+	display:block;
+	padding-right: 30px;
+	line-height: 16px;
+}
+
+#right a{
+	text-decoration: none;
+	color:#666;
+	font-size: 12.8px;
+}
+
+.usr {
+	border-radius: 25px;
+	height: 32px;
+	border: 32px;
+	width: 32px;
+	margin-right: -5px;
+	margin-left: -5px;
+	margin-bottom: -5px;
+	margin-top: -5px;
+	}
